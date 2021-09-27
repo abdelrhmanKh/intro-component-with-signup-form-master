@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white
+}
+
+.bg {
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+@media (min-width:768px) {
+    .bg {
+        background-image: url("images/bg-intro-desktop.png");
+    }
+}
+
+.container {
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width:768px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        margin: 110px;
+    }
+    .container .text {
+        text-align: start;
+        margin-top: 75px;
+    }
+    .heading {
+        font-size: 55px;
+    }
+    .info {
+        font-size: 20px;
+    }
+}
+
+.heading {
+    margin-top: 56px;
+}
+
+.info {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.try-btn {
+    background: hsl(248, 32%, 49%);
+    color: white;
+    padding: 15px 65px;
+    border: none;
+    border-radius: 5px;
+    line-height: 22px;
+    box-shadow: 3px 4px 0px 0px #0000005e;
+    width: 100%;
+}
+
+.try-btn span {
+    opacity: 0.8;
+}
+
+form {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form input {
+    padding: 15px 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+form button {
+    background: hsl(154, 59%, 51%);
+    width: 87%;
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0 0 hsl(154deg 62% 33%);
+}
+
+form p {
+    margin-left: 28px;
+    font-size: 11px;
+    color: black;
+    width: 80%;
+    opacity: 0.7;
+}
+
+form p span {
+    color: red;
+    font-weight: 600;
+}
