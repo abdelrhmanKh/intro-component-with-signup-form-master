@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://abdelrhmankh.github.io/intro-component-with-signup-form-master/))
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com](https://abdelrhmankh.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
